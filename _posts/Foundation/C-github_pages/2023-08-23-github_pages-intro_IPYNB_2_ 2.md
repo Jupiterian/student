@@ -2,7 +2,7 @@
 layout: post
 title: GitHub Pages
 description: The Web Programming topics are focused on learning Frontend programming, GitHub Pages, and Jupyter Notebooks.
-categories: ['JavaScript']
+categories: [GitHub Pages]
 permalink: /github/pages/intro
 type: ccc
 courses: {'csse': {'week': 2}, 'csp': {'week': 1}, 'csa': {'week': 0}}
@@ -11,6 +11,7 @@ menu: nav/github_pages.html
 ---
 
 ## GitHub Pages Mini Project
+
 Your Teacher wants you to engage in a mini project!  This project is intended to help you and your programming pair to make an information site.  The required topics for this mini project include ...
 
 - Making a submenu
@@ -23,12 +24,14 @@ Your Teacher wants you to engage in a mini project!  This project is intended to
 Start the process of inspecting and debugging
 
 ## Topics
+
 The topic for your mini project is up to you.
+
 - Perhaps you wnat to make a submenu of your favorite games and inside each article you can capture data and talk about techniques to enhance place (list discord groups, list communities you have joined, share a list of key videos to enhance success, make a list of popular mods you have added, discuss properties of avatars, etc )  
 - In fitness training you could make menus that highlight highlight topics and results by define a training regimine, track results/data on regimine, define key offline preparations (sleep, nutrition, water, calories, steps), etc
 
-
 ### Brainstorm
+
 To brainstorm is often done by sharing or talking about topics with a pair.  In your project you will capture your brainstorm of your project.
 
 - Gaming Blog
@@ -36,11 +39,13 @@ To brainstorm is often done by sharing or talking about topics with a pair.  In 
 - Raising Fish
 - Career Humor
 
-## Brainwrite 
+## Brainwrite
+
 The Teacher descited to create a mini project on Career Humor.  As a Brainwrite activity, the Teacher decided to think about careers that are possible pursuts of subjects taught at Del Norte High School.
 
 ### Brainwrite Submenu
-My brainwrite took the brainstorm idea of **Career Humor** and established some categories.   
+
+My brainwrite took the brainstorm idea of **Career Humor** and established some categories.
 
 1. Computer Science
 2. Accountant
@@ -50,17 +55,17 @@ My brainwrite took the brainstorm idea of **Career Humor** and established some 
 6. Biomedical Engineer
 7. Astronomer
 
-
 ### Brainwrite Data
+
 Beyond initial categories, my brainwrite went into the direction of authoring joke data.  Amazingly, after some initial research on Computer Science, the Teacher found that ChatGPT could help with jokes on Accountings.
 
 **Note** To observe outputs from Javascript **console.log**, open the Developer Tools
-  - In VSCode, go to **Help->Toggle Developer Tools**
-  - Click on **Console** in the newly opened Window
-  - Clear screen by pressing **Clear Console** (circle with line)
-  - Then press **Play button** to left of cell
-  - Observer random output in Console
 
+- In VSCode, go to **Help->Toggle Developer Tools**
+- Click on **Console** in the newly opened Window
+- Clear screen by pressing **Clear Console** (circle with line)
+- Then press **Play button** to left of cell
+- Observer random output in Console
 
 ```javascript
 %%javascript
@@ -81,11 +86,6 @@ var randomIndex = Math.floor(Math.random() * compsci_joke_list.length);
 var selectedJoke = compsci_joke_list[randomIndex];
 console.log("Joke #" + (randomIndex + 1) + ": " + selectedJoke.joke + " (Complexity: " + selectedJoke.complexity + ")");
 ```
-
-
-    <IPython.core.display.Javascript object>
-
-
 
 ```javascript
 %%javascript
@@ -115,34 +115,29 @@ var randomIndex = Math.floor(Math.random() * accounting_joke_list.length);
 console.log("Joke #" + (randomIndex + 1) + ": " + accounting_joke_list[randomIndex]);
 ```
 
-
-    <IPython.core.display.Javascript object>
-
-
 ## Mini Project Files
+
 Learning how to manage files in GitHub Pages is a key skill.  This class will continually share files and have challenges using GitHup Pages and Jupyter Notebooks.  Even though you will be working as a pair, you will need to share files with your partner.
+
 - Each pair will have their own GitHub Pages repository with their own files.
-- To copy files between repostories, 
+- To copy files between repostories,
   - **git clone** both repositories, yours and your pairs
   - **git pull** keeps repostitories up to date, mostly you will need to do this on your pairs
-  - **code .** in directory you cloned will open vscode windows 
+  - **code .** in directory you cloned will open vscode windows
   - **drag and drop** files between repositories, be sure to put them in correct folders
 
 ### Key Locations for this mini Project
+
 - The **_includes** directory is a location to place files that you want to share across many notebooks.  
   - In this directory on porfolio_2025 you submenu files.
   - The location **_includes/nav/github_pages.html** is a shared submenu
-  - Inside the file you will see tags: **table**, **tr** (table row), **td** (table data), and **a** (link) 
+  - Inside the file you will see tags: **table**, **tr** (table row), **td** (table data), and **a** (link)
 
 - The **_notebooks** directory is the default location to place all **.ipynb** files.  This is the location for all interactive notebooks in our GitHub Pages projects.  If files are in the location they are converted to Web Pages through GitHub Pages Actions.
   - For starters you could copy **_notebooks/Foundation/C-github_pages** to your project.
   - Then you could rename or make modification to thes files as required.
 
-
 - The **_notebooks/Foundations/C-github_pages** contains the files that use the submenu
-  - In **frontmatter** of each file you will 
+  - In **frontmatter** of each file you will
     - **menu: nav/github_pages.html** the menu (submenu) that is included for the page
     - **permalink: /github/pages/intro** the reference for this pages that corresponds to **a** tage in in submenu table
-
-
-

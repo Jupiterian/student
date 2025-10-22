@@ -1,5 +1,5 @@
 ---
-layout: base 
+layout: opencs 
 title: Gamify Home Base
 description: 
 permalink: /gamify

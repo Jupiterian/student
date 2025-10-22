@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Playing with Jupyter Notebooks and Python
+title:  Instructor - Jupyter Notebooks Verification Hacks 
 description: GitHub pages was built with Python and Jupyter Notebooks in mind.  This post is to verify tools by using Python.
-categories: ['DevOps', 'Python']
-permalink: /jupyter/notebook/python
-menu: nav/tools_setup.html
+categories: ['Python']
 toc: True
-comments: True
+permalink: /python/jupyter
 ---
 
 ## Python and Jupyter Notebooks
+
 Python is a highly versatile and widely-used programming language, renowned for its readability and broad library support. Jupyter Notebooks, on the other hand, is an interactive computing environment that enables users to create and share documents containing live code, equations, visualizations, and narrative text. Together, they form a powerful toolkit for data analysis, scientific research, and educational purposes.
 
 We will play with Python and Jupyter Notebooks to get a feel for both.  This is a great interactive way to start development.
 
 ### Emoji Print
+
 It is easy to add an emoji to a message in code.  However, using the emoji library or other libraries often requires you to install code on your machine.  Before using a library, that is not part of Python distribution, you must install with `pip`
 
 ```bash
@@ -26,18 +26,18 @@ Collecting emoji
 Successfully installed emoji-2.5.1
 ```
 
-
 ```python
 #!pip install emoji
 from emoji import emojize 
 print(emojize(":thumbs_up: Python is awesome! :grinning_face:"))
 ```
 
-### Extracting Data 
+### Extracting Data
+
 Web sites become a lot more interesting when you are working with data, not trying to create it.  Here is some code using a library called newspaper, this extracts a couple of writeups from the CNN Entertainment site.
+
 - Learn more on [newspaper3k](https://newspaper.readthedocs.io/en/latest/)
 - Learn about library for [wikipedia](https://pypi.org/project/wikipedia/)
-
 
 ```python
 #!pip install newspaper3k
@@ -60,7 +60,6 @@ for url in urls:
 
 ```
 
-
 ```python
 #!pip install wikipedia
 import wikipedia 
@@ -78,9 +77,10 @@ for term in terms:
 ```
 
 ### Inspecting a Function
-The inspect module can give you the output of what's inside many Python functions/objects.  This can help you explore code behind what you are using.
-- [Inspect](https://docs.python.org/3/library/inspect.html) documentation.
 
+The inspect module can give you the output of what's inside many Python functions/objects.  This can help you explore code behind what you are using.
+
+- [Inspect](https://docs.python.org/3/library/inspect.html) documentation.
 
 ```python
 import inspect 
@@ -91,14 +91,15 @@ print(inspect.getsource(Article))
 ```
 
 ### Python Data Types
+
 Dynamic typing means that the type of the variable is determined only during runtime.  Strong typing means that variables do have a type and that the type matters when performing operations.  In the illustration below there are two functions
+
 - mean... shows types required prior to calling average function
 - average, average2... calculates the average of a list of numbers
 
-
 Python has types.  In the language you can use type hints, but most coders do not use them.  In other languages like Java and 'C' you must specify types.
-- [Python Types Cheat Sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
 
+- [Python Types Cheat Sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
 
 ```python
 import sys
@@ -171,17 +172,16 @@ print("Mean with bad data: " + str(mean(badData)))
 ```
 
 ## Hacks
+
 Here is a summary of some of the things learned above.
+
 - Formatting messages with emoji
 - Exploring data with newspaper and wikipedia libraries
 - Finding code on how the library we used was made
 - Learning about data types while writing an algorithm for mean
 
 > Part of Project Based learning is the idea of combining concepts to form something more interesting.  Make a plan, form some ideas, brainstorm ideas with pair.  Produce something that is interesting and challenging.  Samples...
+
 - Could I get input from user to look up wikipedia information? [Python input](https://www.w3schools.com/python/ref_func_input.asp), [Article on Input](https://vegibit.com/python-input-function/)
 - What could I learn in Python about Stats to get Machine Learning Read? [Stats Calculations](https://docs.python.org/3/library/statistics.html)
 - Could I add emoji to an extracted article?  [String Find](https://www.w3schools.com/python/ref_string_find.asp), [String Methods](https://www.w3schools.com/python/python_strings_methods.asp)
-
-
-
-

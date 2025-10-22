@@ -2,7 +2,7 @@
 layout: post
 title: Introduction Java Spring Framework
 description: Introduction to API, JPA, ORM, POJOs in Java Spring Framework
-categories: [Java Spring]
+categories: [Java]
 permalink: /web-dev/spring-intro
 breadcrumb: True
 ---

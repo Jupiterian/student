@@ -50,7 +50,11 @@
   
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* fr is a special unit; learn more here: https://css-tricks.com/introduction-fr-css-unit/  */
+<<<<<<< HEAD
     grid-template-rows: 0.5fr repeat(4, 1fr);
+=======
+    grid-template-rows: 0.5fr repeat(5, 1fr);
+>>>>>>> upstream/main
     gap: 10px 10px;
   }
   

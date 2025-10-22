@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: opencs
 title: Logout
 permalink: /logout
 search_exclude: True

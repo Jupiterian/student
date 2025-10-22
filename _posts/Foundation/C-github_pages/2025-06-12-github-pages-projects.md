@@ -4,7 +4,7 @@ layout: post
 data: web-dev
 title: Projects – Snake Game & Turtle
 description: Hands-on projects editing and enhancing classic games like Snake and Turtle to practice JavaScript, DOM manipulation, and game logic.
-categories: ['Web Development', 'Projects']
+categories: ["GitHub Pages"]
 permalink: /web-dev/projects
 breadcrumb: true
 ---

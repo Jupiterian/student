@@ -4,7 +4,7 @@ layout: post
 data: web-dev
 title: VSCode & Collaboration
 description: Collaborate in real time using VSCode Live Share, pair programming techniques, and effective version control to work like professional dev teams.
-categories: ['Web Development', 'Collaboration']
+categories: ['Collaboration']
 permalink: /web-dev/collaboration
 breadcrumb: true
 ---

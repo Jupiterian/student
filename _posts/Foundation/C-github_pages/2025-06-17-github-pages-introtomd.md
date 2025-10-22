@@ -4,7 +4,7 @@ layout: post
 data: web-dev
 title: Introduction to Markdown
 description: Master Markdown syntax to create clean, readable, and well-structured documents for the web and code projects.
-categories: ['Web Development', 'Markdown']
+categories: ["GitHub Pages"]
 permalink: /web-dev/intro-to-markdown
 breadcrumb: true
 ---

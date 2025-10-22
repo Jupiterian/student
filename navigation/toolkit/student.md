@@ -1,5 +1,5 @@
 ---
-layout: base 
+layout: opencs 
 title: Student Toolkit
 description: 
 permalink: /student

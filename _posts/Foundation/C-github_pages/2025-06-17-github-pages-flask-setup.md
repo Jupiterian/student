@@ -4,7 +4,7 @@ layout: post
 data: web-dev
 title: Flask Portfolio Starter Setup
 description: Set up a Flask server locally using a starter template. This guide walks you through cloning the repository, creating a virtual environment, installing dependencies, connecting VSCode, and running the project with a SQL database.
-categories: ['Flask', 'Backend']
+categories: ['DevOps']
 permalink: /web-dev/flask-starter
 breadcrumb: True
 ---
